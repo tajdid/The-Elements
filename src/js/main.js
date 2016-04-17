@@ -55,7 +55,7 @@ var SCREEN_WIDTH = window.innerWidth,
       var geometry = new THREE.Geometry();
       var vertex = new THREE.Vector3( Math.random() * 2 - 1, Math.random() * 2 - 1, Math.random() * 2 - 1 );
       vertex.normalize();
-      vertex.multiplyScalar( 450 );
+      vertex.multiplyScalar( 750 );
       geometry.vertices.push( vertex );
       var vertex2 = vertex.clone();
       vertex2.multiplyScalar( Math.random() * 0.3 + 1 );
@@ -101,7 +101,7 @@ var SCREEN_WIDTH = window.innerWidth,
     render();
   }
   function render() {
-    camera.position.x += ( mouseX - camera.position.x ) * .05;
+    camera.position.x += ( mouseX - camera.position.x ) * .1;
     camera.position.y += ( - mouseY + 200 - camera.position.y ) * .05;
     camera.lookAt( scene.position );
     renderer.render( scene, camera );
