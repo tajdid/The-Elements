@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,700|Source+Code+Pro:400,700);
+
+html {
+  // 1rem = 10px
+  font-size: 10px;
+}
+
+body {
+  font-family: $mono;
+  // font-weight: ;
+  // font-size: ;
+  line-height: 1.4;
+}
+
+.logo {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-family: $sans;
+  font-size: 10em;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  span {
+    font-weight: 400;
+  }
+
+  &:before {
+    background: #111;
+    clip: rect( 0, 400px, 0, 0 );
+    color: white;
+    content: "Elements";
+    right: 50px;
+    overflow: hidden;
+    position: absolute;
+    text-shadow: -1px 0 red;
+    top: 0;
+    z-index: -1;
+  }
+
+  &:hover {
+    &::before {
+      animation: logo-glitch 2s infinite linear alternate-reverse;
+      background: #242933;
+      clip: rect( 0, 400px, 0, 0 );
+      color: white;
+      content: "Elements";
+      right: 80px;
+      overflow: hidden;
+      position: absolute;
+      text-shadow: -1px 0 red;
+      top: 0;
+    }
+  }
+}
+
+.logo-tagline {
+  color: $tagline;
+  font-size: 1.6em;
+  letter-spacing: 4.44px;
+
+  span {
+    font-style: italic;
+  }
+}

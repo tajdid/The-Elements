@@ -1,0 +1,29 @@
+body {
+  background: $body-background;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.container {
+  width: 100% - 2 * $site-gutter;
+  max-width: $site-width;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.f-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.site-header {
+  text-align: center;
+}
