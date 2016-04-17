@@ -23,7 +23,7 @@ var SCREEN_WIDTH = window.innerWidth,
     container = document.createElement('div');
     document.body.appendChild(container);
     camera = new THREE.PerspectiveCamera( 75, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000 );
-    camera.position.z = 1000;
+    camera.position.z = 500;
     scene = new THREE.Scene();
     renderer = new THREE.CanvasRenderer();
     renderer.setPixelRatio( window.devicePixelRatio );
@@ -39,7 +39,7 @@ var SCREEN_WIDTH = window.innerWidth,
         context.arc( 0, 0, 0.5, 0, PI2, true );
         context.fill();
       }
-    } );
+    });
     for ( var i = 0; i < 1000; i ++ ) {
       particle = new THREE.Sprite( material );
       particle.position.x = Math.random() * 2 - 1;
@@ -55,7 +55,7 @@ var SCREEN_WIDTH = window.innerWidth,
       var geometry = new THREE.Geometry();
       var vertex = new THREE.Vector3( Math.random() * 2 - 1, Math.random() * 2 - 1, Math.random() * 2 - 1 );
       vertex.normalize();
-      vertex.multiplyScalar( 750 );
+      vertex.multiplyScalar( 650 );
       geometry.vertices.push( vertex );
       var vertex2 = vertex.clone();
       vertex2.multiplyScalar( Math.random() * 0.3 + 1 );
