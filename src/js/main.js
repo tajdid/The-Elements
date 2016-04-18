@@ -1,3 +1,7 @@
+// import jump from './components/jump'
+
+
+
 // class Main {
 //   constructor(options = {}) {
 

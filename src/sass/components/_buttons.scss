@@ -2,6 +2,68 @@
 
   &-diamond {
     position: absolute;
-    bottom: 0;
+    bottom: 55px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    transform-origin: 50% 50%;
+    border: 1px solid #EBE6C0;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+
+    &:before {
+      position: absolute;
+      content: " ";
+      // display: block;
+      background-color: #EBE6C0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      left: 0;
+      top: 0;
+
+      transform: scale(0) rotate(-45deg);
+      transform-origin: 50% 50%;
+      transition: all 0.5s ease-in-out;
+    }
+
+    // &:after {
+    //   content: "↓";
+    //   position: absolute;
+    //   transform: translate(-10%, 30%) rotate(-45deg);
+      
+    //   bottom: 0;
+    //   font-size: 2em;
+    // }
+
+    span {
+      position: relative;
+      z-index: 2;
+      display: block;
+      transform: rotate(-45deg);
+      font-size: 1.4em;
+      color: white;
+      transition: all 0.5s ease-in-out;
+    }
+
+    &:hover {
+      
+      &:before {
+        transform: scale(0.85) rotate(0deg);
+        // height: 0%;
+      }
+
+      // &:after {
+      //   transform: translate(-100%, -2%) rotate(-45deg);
+      // }
+
+      span {
+        color: $tuna;
+      }
+    }
   }
 }
