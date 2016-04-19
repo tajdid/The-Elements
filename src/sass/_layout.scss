@@ -54,6 +54,67 @@ canvas {
   }
 }
 
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(-180deg, rgba(66,75,92,0) 0%, rgba(46,58,81,0) 100%);
+
+  position: relative;
+  text-align: center;
+  width: 25%;
+  height: 100vh;
+  // border-left: 1px solid #475061;
+  transition: all 0.3s ease-in-out;
+  
+  &:not(:last-child) {
+    border-right: 1px solid #475061;
+  }
+
+  a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-content {
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -13%;
+      margin-top: 6%;
+      z-index: -1;
+      display: block;
+      width: 100px; 
+      height: 100px;
+      transform: rotate(45deg) translate(-50%, -50%);
+      background: #475061;
+    }
+  }
+
+  &-atomic {
+    position: relative;
+    z-index: 2;
+  }
+
+  &-name {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:hover {
+    background: linear-gradient(-180deg, rgba(66,75,92,0) 0%, rgba(46,58,81,1) 100%);
+
+  }
+}
+
 // .disc {
 //   position: absolute;
 //   bottom: 0;
