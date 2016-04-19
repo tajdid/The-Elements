@@ -38,23 +38,21 @@
       </header>
     </main>
 
+    <footer class="side-footer">
+      <p>Copyright <a href="#">Tajdid Rahman</a> – 2016</p>
+    </footer>
+
     <script src="three.min.js"></script>
     <script src="Projector.js"></script>
     <script src="CanvasRenderer.js"></script>
 
     <script>
-      /* Open when someone clicks on the span element */
-    function openNav() {
-      document.getElementById("levelSelector").style.cssText += 'visibility: visible; transform: scale(1);';
-      // document.getElementById("levelSelector").style.width = "100%";
-      // document.getElementById("levelSelector").style.visibility = "visible";
-      // document.getElementById("levelSelector")style.transform = "scale(1)";
-    }
-    function closeNav() {
-      // document.getElementById("levelSelector").style.width = "0%";
-      
-      document.getElementById("levelSelector").style.cssText += 'visibility: hidden; transform: scale(4);';
-    }
+      function openNav() {
+        document.getElementById("levelSelector").style.cssText += 'visibility: visible; transform: scale(1);';
+      }
+      function closeNav() {
+        document.getElementById("levelSelector").style.cssText += 'visibility: hidden; transform: scale(4);';
+      }
     </script>
 
     <script src="bundle.js"></script>

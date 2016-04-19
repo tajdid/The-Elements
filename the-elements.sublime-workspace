@@ -1,0 +1,746 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"align-ite",
+				"align-items- center	align-items: center;"
+			],
+			[
+				"visibil",
+				"visibility	Style CSS"
+			],
+			[
+				"vis",
+				"visibility = 'visible'	Style CSS"
+			],
+			[
+				"jus",
+				"justify-content- center	justify-content: center;"
+			],
+			[
+				"jsut",
+				"justify-content- flex-end	justify-content: flex-end;"
+			],
+			[
+				"ord",
+				"order	order: $0;"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"bg",
+				"bg-colour"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"ali",
+				"align-items- center	align-items: center;"
+			],
+			[
+				"flex",
+				"flex-grow	flex-grow: $0;"
+			],
+			[
+				"fl",
+				"flex-grow	flex-grow: $0;"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"hea",
+				"heading-color"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bu",
+				"button-colour"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"let",
+				"left"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"header",
+				"header-fixed"
+			],
+			[
+				"head",
+				"headroom--pinned"
+			],
+			[
+				"site",
+				"site-header"
+			],
+			[
+				"ta",
+				"ta-j	text-align: justify;"
+			],
+			[
+				"t-a",
+				"ta-r	text-align: right;"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/html/index.html",
+			"settings":
+			{
+				"buffer_size": 1563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 240,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/main.js",
+			"settings":
+			{
+				"buffer_size": 3822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/components/_levelNav.scss",
+			"settings":
+			{
+				"buffer_size": 2186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 904,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/_font.scss",
+			"settings":
+			{
+				"buffer_size": 1426,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tajdid/Documents/Creative/Websites/the-elements",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/dist",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/html",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/components",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components"
+	],
+	"file_history":
+	[
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_buttons.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_levelNav.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/components/jump.js",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/main.js",
+		"/Users/tajdid/Documents/GitHub/madebytaj/css/style.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_keyframes.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/_vars.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/style.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/_font.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/index.html",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/package.json",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/gulpfile.js",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/config/database.yml",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/views/posts/show.haml",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/controllers/posts_controller.rb",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/views/posts/index.haml",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/assets/stylesheets/application.scss",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/views/layouts/application.html.erb",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/Gemfile",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/models/post.rb",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/views/devise/registrations/new.html.erb",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/controllers/application_controller.rb",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/views/posts/_form.haml",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/views/devise/registrations/edit.html.erb",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/models/user.rb",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/config/environments/development.rb",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/views/posts/edit.haml",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/config/routes.rb",
+		"/Users/tajdid/Documents/Creative/Websites/Rails/playlistr/app/views/posts/new.haml",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/twitter-auth/views/out.erb",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/twitter-auth/views/layout.erb",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/twitter-auth/views/home.erb",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/twitter-auth/Procfile",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/twitter-auth/Gemfile",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/twitter-auth/app.json",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/twitter-auth/main.rb",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/playlistr/Gemfile",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/playlistr/app.rb",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/playlistr/Procfile",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/playlistr/config.ru",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/playlistr/views/index.haml",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/playlistr/views/about.haml",
+		"/Users/tajdid/Documents/Creative/Websites/elements-website/src/html/index.html",
+		"/Users/tajdid/Documents/Creative/Websites/elements-website/src/sass/_layout.scss",
+		"/Users/tajdid/Documents/Creative/Websites/elements-website/src/sass/components/_keyframes.scss",
+		"/Users/tajdid/Dropbox/University/Designing UX/Project Two/Weather App/weather-app/js/app.js",
+		"/Users/tajdid/Documents/Creative/Websites/elements-website/src/sass/_vars.scss",
+		"/Users/tajdid/Documents/Creative/Websites/elements-website/src/sass/_font.scss",
+		"/Users/tajdid/Documents/Creative/Websites/elements-website/src/sass/components/_buttons.scss",
+		"/Users/tajdid/Documents/Creative/Websites/elements-website/src/sass/components/_buttons.scs",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/src/pages/RegisterPage.js",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/src/pages/RegistrationPage.js",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/src/pages/LoginPage.js",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/src/pages/IndexPage.js",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/src/pages/ProfilePage.js",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/src/pages/Header.js",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/build/index.html",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/src/pages/MasterPage.js",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/src/app.js",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/webpack.config.js",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/.babelrc",
+		"/Users/tajdid/Documents/GitHub/learning-react/my-react-app/stormpath.yml",
+		"/Users/tajdid/Documents/GitHub/ichiban/src/sass/_vars.scss",
+		"/Users/tajdid/Documents/GitHub/ichiban/src/js/main.js",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/.gitignore",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_config.yml",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/work/only-girl.md",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_layouts/default.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_layouts/work.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_work/work.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/about.md",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/css/main.scss",
+		"/Users/tajdid/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/modules/_all.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_includes/scripts.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/base/_variables.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_includes/social.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/work/movee-trak.md",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_includes/logo.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/index.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/js/main.js",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/_layout.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/base/_base.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/pages/_casestudy.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_includes/header.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/img/icons/design-icon.svg",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/pages/_pages.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_layouts/case.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/contact.md",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/thanks.md",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/base/_all.scss",
+		"/Users/tajdid/Documents/GitHub/tajdid.github.io/index.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/base/_grid.scss",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/base/_variables.scss",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/base/_base.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/notes/profile.md",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/_header.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/_buttons.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_includes/footer.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_layouts/page.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_includes/head.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/_base.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/CNAME",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_layouts/home.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_layouts/compress.html",
+		"/Users/tajdid/Documents/Creative/Websites/personal-page/scss/modules/_buttons.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_sass/_grid.scss",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/taskanatra/app.rb",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/pages/_home.scss",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_includes/touch-cta.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/js/particles.js",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/_includes/touch.html",
+		"/Users/tajdid/Documents/Creative/Websites/rob-site/_includes/header.html",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/img/logo.svg",
+		"/Users/tajdid/Documents/GitHub/portfolio-site/img/logo_bg.svg",
+		"/Users/tajdid/Desktop/array.txt",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/page.html",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/index.html",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_header.scss",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/js/scripts.js",
+		"/Users/tajdid/Documents/GitHub/minifolio/css/style.css",
+		"/Users/tajdid/Documents/GitHub/ixd302/index.html",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_buttons.scss",
+		"/Users/tajdid/Documents/Creative/Websites/Sinatra/taskanatra/Gemfile",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/pages/_profile.scss",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_footer.scss",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/pages/_pages.scss",
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/profile.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0000000",
+			"canvas",
+			"pause",
+			"img/",
+			"https://d13yacurqjgara.cloudfront.net/users/452844/screenshots/2262818",
+			"#FFF",
+			"*",
+			"img",
+			"btn",
+			".btn",
+			";\n",
+			"p",
+			"h2",
+			"#1B1B1E",
+			"background",
+			"/r",
+			"figure",
+			";\n",
+			"/ixd",
+			"{FOLDERNAME}",
+			".container",
+			"ol",
+			"ul {",
+			"UL",
+			"LI",
+			"$golden",
+			"wrapper",
+			"san",
+			"nav__",
+			"site-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\",/r\""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1492,
+								1207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 774.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/sass/components/_levelNav.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								842,
+								842
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "src/sass/_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/sass/_font.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								919,
+								919
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "the-elements.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
