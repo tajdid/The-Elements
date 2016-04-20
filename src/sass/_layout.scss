@@ -76,7 +76,7 @@ canvas {
     transform: translateY(100%);
     // opacity: 0;
     background: linear-gradient(-180deg, rgba(66,75,92,0) 0%, rgba(46,58,81,1) 100%);
-    transition: all 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
   }
   
   &:not(:last-child) {
@@ -114,7 +114,8 @@ canvas {
     position: relative;
     z-index: 2;
     font-size: 1.6em;
-    color: #EBE6C0;
+    color: $spring-green;
+    transition: color 0.3s ease-in-out;
   }
 
   &-name {
@@ -124,6 +125,7 @@ canvas {
     font-size: 3.2em;
     font-weight: 700;
     color: white;
+    transition: color 0.3s ease-in-out;
   }
 
   &:hover {
@@ -132,6 +134,14 @@ canvas {
       transform: translateY(0%);
       // opacity: 1;
       // height: 100vh;
+    }
+
+    .element-atomic {
+      color: white;
+    }
+
+    .element-name {
+      color: $spring-green;
     }
 
   }
