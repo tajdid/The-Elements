@@ -3,8 +3,8 @@
   &-back {
     position: absolute;
     z-index: 10;
-    padding-left: 40px;
-    padding-top: 14px;
+    // overflow: hidden;
+    padding: 20px 0 0 40px;
     color: $spring-green;
     font-family: $sans;
     font-size: 1.2em;
@@ -38,7 +38,7 @@
 
     &:hover {
       &:before {
-        left: 130px;
+        left: 120px;
         width: 30px;
         background: $spring-green;
       }
