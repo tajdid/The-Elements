@@ -1,3 +1,13 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes logo-glitch {
   0% {
     clip: rect(42px, 9999px, 44px, 0);

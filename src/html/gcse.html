@@ -56,7 +56,13 @@
     <footer class="side-footer">
       <p>Copyright <a href="#">Tajdid Rahman</a> – 2016</p>
     </footer>
-
+      
+    <script src="jquery.min.js"></script>
+    <script>
+      $(".element").each(function(index) {
+        $(this).delay(400*index).fadeIn(300);
+      });
+    </script>
     <script src="bundle.js"></script>
   </body>
 </html>
