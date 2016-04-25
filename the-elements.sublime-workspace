@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"h",
+				"h-a	height: auto;"
+			],
+			[
+				"flex",
+				"flex	flex: $0;"
+			],
+			[
+				"tra",
+				"translate"
+			],
+			[
 				"back",
 				"background"
 			],
 			[
 				"in",
 				"inline-block"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"align-ite",
@@ -54,10 +70,6 @@
 			[
 				"ali",
 				"align-items- center	align-items: center;"
-			],
-			[
-				"flex",
-				"flex-grow	flex-grow: $0;"
 			],
 			[
 				"fl",
@@ -102,10 +114,6 @@
 			[
 				"bac",
 				"background-color"
-			],
-			[
-				"font-",
-				"font-size"
 			],
 			[
 				"backg",
@@ -171,31 +179,15 @@
 			"file": "src/html/index.html",
 			"settings":
 			{
-				"buffer_size": 1563,
+				"buffer_size": 1834,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/sass/style.scss",
+			"file": "src/html/element.html",
 			"settings":
 			{
-				"buffer_size": 240,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/js/main.js",
-			"settings":
-			{
-				"buffer_size": 3822,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/sass/components/_levelNav.scss",
-			"settings":
-			{
-				"buffer_size": 2186,
+				"buffer_size": 1850,
 				"line_ending": "Unix"
 			}
 		},
@@ -203,15 +195,7 @@
 			"file": "src/sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 904,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/sass/_font.scss",
-			"settings":
-			{
-				"buffer_size": 1426,
+				"buffer_size": 4324,
 				"line_ending": "Unix"
 			}
 		}
@@ -265,22 +249,22 @@
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/dist",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/html",
-		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js",
-		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/components",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components"
 	],
 	"file_history":
 	[
-		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_buttons.scss",
-		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_levelNav.scss",
-		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/components/jump.js",
-		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/main.js",
-		"/Users/tajdid/Documents/GitHub/madebytaj/css/style.scss",
-		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_keyframes.scss",
-		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/_vars.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/html/gcse.html",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/style.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_levelNav.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_buttons.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/_vars.scss",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/_font.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/_layout.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_keyframes.scss",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/main.js",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/components/jump.js",
+		"/Users/tajdid/Documents/GitHub/madebytaj/css/style.scss",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/index.html",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/package.json",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/gulpfile.js",
@@ -397,9 +381,7 @@
 		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_buttons.scss",
 		"/Users/tajdid/Documents/Creative/Websites/Sinatra/taskanatra/Gemfile",
 		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/pages/_profile.scss",
-		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_footer.scss",
-		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/pages/_pages.scss",
-		"/Users/tajdid/Documents/Creative/Websites/portfolio/profile.html"
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_footer.scss"
 	],
 	"find":
 	{
@@ -466,7 +448,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -475,15 +457,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1563,
+						"buffer_size": 1834,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1492,
-								1207
+								1457,
+								1457
 							]
 						],
 						"settings":
@@ -501,90 +483,33 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/sass/style.scss",
+					"file": "src/html/element.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 240,
+						"buffer_size": 1850,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
+								1794,
+								1794
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 136.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3822,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								40,
-								40
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 774.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/sass/components/_levelNav.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2186,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								842,
-								842
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -594,48 +519,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "src/sass/_layout.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 904,
+						"buffer_size": 4324,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								295,
-								295
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/sass/_font.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1426,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								919,
-								919
+								3183,
+								3183
 							]
 						],
 						"settings":
@@ -645,10 +542,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2355.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -730,7 +627,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
