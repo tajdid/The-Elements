@@ -8,7 +8,7 @@
 //   }
 // }
 
-// document.addEventListener('DOMContentLoaded', event => new Main)
+// document.addEventListener('DOMContentLoaded', event => new Main
 
 var SCREEN_WIDTH = window.innerWidth,
   SCREEN_HEIGHT = window.innerHeight,

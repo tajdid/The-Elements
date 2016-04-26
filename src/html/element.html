@@ -11,7 +11,7 @@
   </head>
   <body>
     
-    <a href="index.html" class="btn btn-back">Go Back</a>
+    <a href="#" onclick="goBack()" class="btn btn-back">Go Back</a>
     
     <a href="index.html" class="btn btn-source">Info Source</a>
 
@@ -80,6 +80,9 @@
     
     <script src="jquery.min.js"></script>
     <script>
+      function goBack() {
+        window.history.back();
+      }
       // var diamond = $(".diamond").css("z-index");
 
       $(".diamond").hover(function () {
