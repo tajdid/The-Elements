@@ -162,11 +162,11 @@ canvas {
 .element-page {
 
   .diamond {
-    display: inline-block;
+    display: block;
     position: relative;
 
     height: $diamond-size;
-    // width: $diamond-size;
+    width: $diamond-size;
     overflow: hidden;
     transform: rotate(-45deg);
 
@@ -183,24 +183,25 @@ canvas {
     }
 
     &:nth-child(2) {
-      margin-bottom: -149px;
-      margin-left: -55px;
+      margin-top: -55px;
+      margin-bottom: -109px;
+      margin-left: 145px;
     }
 
     &:nth-child(3) {
-      margin-left: -3px;
-      margin-top: 92px;
+      margin-left: 0px;
+      margin-top: 54px;
     }
 
     &:nth-child(4) {
-      margin-left: -3px;
-      margin-top: 92px;
+      margin-left: 145px;
+      margin-top: -55px;
     }
 
     img {
       max-width: 200px;
+      transform: rotate(45deg) scale(1.5,1.5);
     }
-
   }
 
   // .diamond {
