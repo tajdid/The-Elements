@@ -1,0 +1,11 @@
+@for $i from 1 through 4 {
+  &:nth-child(#{$i}) {
+    $time: $i * 3 + unquote('');
+    $delay: unquote('0.' + $time + 's');
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: $delay; 
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+  }
+}

@@ -18,27 +18,27 @@
       <aside class="meta">
 
         <div class="diamond">
-            <img src="https://placeimg.com/400/400/nature" alt="">
+            <img src="http://www.ruf-briquetter.com/content/images/Magnesium-Briquetting.jpg" alt="">
         </div>
 
         <div class="diamond">
           <div class="diamond-content">
-            <p class="dc">Atomic Number</p>
-            <h2 class="dc">12</h2>
+            <p class="diamond-cat">Atomic Number</p>
+            <h2 class="diamond-title__atm">12</h2>
           </div>
         </div>
 
         <div class="diamond">
           <div class="diamond-content">
-            <p class="dc">Atomic Number</p>
-            <h2 class="dc">12</h2>
+            <p class="diamond-cat">Atomic Mass</p>
+            <h2 class="diamond-title">24.305</h2>
           </div>
         </div>
 
         <div class="diamond">
           <div class="diamond-content">
-            <p class="dc">Atomic Number</p>
-            <h2 class="dc">12</h2>
+            <p class="diamond-cat">Discovery Date</p>
+            <h2 class="diamond-title">1798</h2>
           </div>
         </div>
 
@@ -75,7 +75,20 @@
     <footer class="side-footer">
       <p>Copyright <a href="#">Tajdid Rahman</a> – 2016</p>
     </footer>
-      
+    
+    <script src="jquery.min.js"></script>
+    <script>
+      // var diamond = $(".diamond").css("z-index");
+
+      $(".diamond").hover(function () {
+        $(".diamond").css("z-index", "5");
+        // if ($(".diamond").css("z-index") == "0") {
+        //   $(".diamond").css("z-index", "5");
+        // } else {
+        //   $(".diamond").css("z-index", "0");
+        // }
+      });
+    </script>
     <script src="bundle.js"></script>
   </body>
 </html>
