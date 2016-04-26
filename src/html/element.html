@@ -12,6 +12,8 @@
   <body>
     
     <a href="index.html" class="btn btn-back">Go Back</a>
+    
+    <a href="index.html" class="btn btn-source">Info Source</a>
 
     <main class="f-container element-page">
 
@@ -81,12 +83,12 @@
       // var diamond = $(".diamond").css("z-index");
 
       $(".diamond").hover(function () {
-        $(".diamond").css("z-index", "5");
-        // if ($(".diamond").css("z-index") == "0") {
-        //   $(".diamond").css("z-index", "5");
-        // } else {
-        //   $(".diamond").css("z-index", "0");
-        // }
+        // $(".diamond").css("z-index", "5");
+        if ($(this).css("z-index") == "0") {
+          $(this).css("z-index", "5");
+        } else {
+          $(this).css("z-index", "0");
+        }
       });
     </script>
     <script src="bundle.js"></script>

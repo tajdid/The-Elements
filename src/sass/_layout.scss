@@ -190,11 +190,13 @@ canvas {
     }
 
     &-cat {
+      transform: translate3d(0, 0, 0); // Stop text flickering
       font-size: 1.4em;
       color: #CCCCCC;
     }
 
     &-title {
+      transform: translate3d(0, 0, 0); // Stop text flickering
       font-size: 3.4em;
       font-weight: 700;
       color: white;
@@ -239,7 +241,13 @@ canvas {
 
     img {
       max-width: 400px;
-      transform: rotate(45deg) scale(1.5,1.5);
+      transform: rotate(45deg) scale(1.3, 1.3);
+      transform-origin: 50% 50%;
+      transition: transform 5s ease-in-out;
+
+      &:hover {
+        transform: rotate(50deg) scale(1.8, 1.8);
+      }
     }
   }
 

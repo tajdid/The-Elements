@@ -51,6 +51,58 @@
     }
   }
 
+  &-source {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    // overflow: hidden;
+    padding: 20px 40px 0 0;
+    color: $spring-green;
+    font-family: $sans;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      right: 0;
+      margin-top: 6.5px;
+      width: 20px;
+      height: 2px;
+      background-color: white;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      // left
+      margin-top: 6.5px;
+      margin-right: -10px;
+      width: 0px;
+      height: 2px;
+      background-color: white;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        right: 165px;
+        width: 30px;
+        background: $spring-green;
+      }
+
+      &:after {
+        right: 10px;
+        width: 20px;
+        background: $spring-green;
+      }
+    }
+  }
+
   &-diamond {
     position: absolute;
     bottom: 55px;
