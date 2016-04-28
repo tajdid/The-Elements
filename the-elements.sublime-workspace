@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
 				"font-",
 				"font-style"
 			],
@@ -62,10 +70,6 @@
 			[
 				"bg",
 				"bg-colour"
-			],
-			[
-				"if",
-				"ife	if … else"
 			],
 			[
 				"ali",
@@ -187,7 +191,15 @@
 			"file": "src/html/element.html",
 			"settings":
 			{
-				"buffer_size": 1850,
+				"buffer_size": 3135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/components/_buttons.scss",
+			"settings":
+			{
+				"buffer_size": 3269,
 				"line_ending": "Unix"
 			}
 		},
@@ -195,7 +207,15 @@
 			"file": "src/sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 4324,
+				"buffer_size": 6301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sass/_vars.scss",
+			"settings":
+			{
+				"buffer_size": 391,
 				"line_ending": "Unix"
 			}
 		}
@@ -249,11 +269,14 @@
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/dist",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/html",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components"
 	],
 	"file_history":
 	[
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/main.js",
+		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_mixins.scss",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/html/gcse.html",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/style.scss",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_levelNav.scss",
@@ -262,7 +285,6 @@
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/_font.scss",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/_layout.scss",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/sass/components/_keyframes.scss",
-		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/main.js",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/src/js/components/jump.js",
 		"/Users/tajdid/Documents/GitHub/madebytaj/css/style.scss",
 		"/Users/tajdid/Documents/Creative/Websites/the-elements/index.html",
@@ -380,8 +402,7 @@
 		"/Users/tajdid/Documents/GitHub/ixd302/index.html",
 		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_buttons.scss",
 		"/Users/tajdid/Documents/Creative/Websites/Sinatra/taskanatra/Gemfile",
-		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/pages/_profile.scss",
-		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/modules/_footer.scss"
+		"/Users/tajdid/Documents/Creative/Websites/portfolio/assets/scss/pages/_profile.scss"
 	],
 	"find":
 	{
@@ -448,7 +469,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -478,7 +499,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -487,15 +508,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1850,
+						"buffer_size": 3135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1794,
-								1794
+								2765,
+								2735
 							]
 						],
 						"settings":
@@ -506,33 +527,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 136.0,
+						"translation.y": 781.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 2,
-					"file": "src/sass/_layout.scss",
+					"file": "src/sass/components/_buttons.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4324,
+						"buffer_size": 3269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3183,
-								3183
+								1760,
+								1760
 							]
 						],
 						"settings":
@@ -542,10 +557,74 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2355.0,
+						"translation.y": 786.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "src/sass/_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4638,
+								4638
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2868.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/sass/_vars.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -627,7 +706,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
