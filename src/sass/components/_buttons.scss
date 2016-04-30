@@ -1,7 +1,7 @@
 .btn {
 
   &-back {
-    position: absolute;
+    position: fixed;
     z-index: 10;
     // overflow: hidden;
     padding: 20px 0 0 40px;

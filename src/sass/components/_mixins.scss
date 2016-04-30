@@ -9,3 +9,31 @@
     animation-timing-function: ease-in;
   }
 }
+
+// Fonts
+@function calculateRem($size) {
+  $remSize: $size / 14px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// Transition
+@mixin transition($property: all, $time: 0.3s, $method: ease-in-out) {
+  transition: $property $time $method;
+}
+
+// Clearfix
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

@@ -23,6 +23,14 @@ canvas {
   align-items: center;
 }
 
+.f0-container {
+  // height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .site-header {
   text-align: center;
@@ -294,11 +302,18 @@ canvas {
   .meta {
     flex: 0.4;
     padding-left: 6vw;
+
+    &-content {
+      top: 50%;
+      transform: translateY(-50%);
+      position: fixed;
+    }
   }
 
   .content {
     flex: 1;
     max-width: 747px;
+    padding-top: 100px;
 
     h1 {
       margin-left: -100px;

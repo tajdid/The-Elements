@@ -35,6 +35,50 @@ input {
   opacity: 1;
 }
 
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+
+  &-button {
+    width: 0px;
+    height: 0px;
+  }
+
+  &-thumb {
+    background: #e32000;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+
+    &:hover {
+      background: #ff271d;
+    }
+
+    &:active {
+      background: #000000;
+    }
+  }
+}
+::-webkit-scrollbar-thumb:hover {
+  
+}
+::-webkit-scrollbar-thumb:active {
+  
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 a {
   background-color: transparent;
 
