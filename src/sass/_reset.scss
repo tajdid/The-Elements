@@ -45,38 +45,36 @@ input {
   }
 
   &-thumb {
-    background: #e32000;
+    background: #EBE6C0;
     border: 0px none #ffffff;
     border-radius: 50px;
 
     &:hover {
-      background: #ff271d;
+      background: darken(#EBE6C0, 15%);
     }
 
     &:active {
-      background: #000000;
+      background: darken(#EBE6C0, 15%);
     }
   }
-}
-::-webkit-scrollbar-thumb:hover {
-  
-}
-::-webkit-scrollbar-thumb:active {
-  
-}
-::-webkit-scrollbar-track {
-  background: #666666;
-  border: 0px none #ffffff;
-  border-radius: 50px;
-}
-::-webkit-scrollbar-track:hover {
-  background: #666666;
-}
-::-webkit-scrollbar-track:active {
-  background: #333333;
-}
-::-webkit-scrollbar-corner {
-  background: transparent;
+
+  &-track {
+    background: transparent;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+    
+    // &:hover {
+    //   background: darken(#EBE6C0, 15%);
+    // }
+
+    // &:active {
+    //   background: darken(#EBE6C0, 15%);
+    // }
+  }
+
+  &-corner {
+    background: transparent;
+  }
 }
 
 a {

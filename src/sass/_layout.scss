@@ -21,6 +21,7 @@ canvas {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .f0-container {
@@ -185,6 +186,7 @@ canvas {
     &:hover {
       box-shadow: 0px 0px 50px rgba(black, 0.3);
       transform: rotate(-45deg) scale(1.1,1.1);
+      z-index: 1;
     }
 
     &-content {
@@ -259,46 +261,6 @@ canvas {
     }
   }
 
-  // .diamond {
-  //   position: absolute;
-  //   overflow: hidden;
-  //   width: 180px;
-  //   height: 180px;
-  //   transform: rotate(45deg);
-  //   background-color: #475061;
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-
-  //   &:nth-child(1) {
-  //     top: 180px;
-  //     // left: 0px;
-  //   }
-
-  //   &:nth-child(2) {
-  //     top: 314px;
-  //     left: 217px;
-  //   }
-
-  //   &:nth-child(3) {
-  //     top: 450px;
-  //     left: 80px;
-  //   }
-
-  //   &:nth-child(4) {
-  //     top: 314px;
-  //     left: 217px;
-  //   }
-
-  //   .dc {
-  //     transform: rotate(-45deg);
-  //   }
-
-  //   img {
-  //     max-width: 350px;
-  //   }
-  // }
-
   .meta {
     flex: 0.4;
     padding-left: 6vw;
@@ -314,6 +276,7 @@ canvas {
     flex: 1;
     max-width: 747px;
     padding-top: 100px;
+    padding-bottom: 50px;
 
     h1 {
       margin-left: -100px;
@@ -322,6 +285,15 @@ canvas {
       font-size: 9.2em;
       font-weight: 700;
       color: white;
+      animation: headingFadeIn 0.5s ease-in-out;
+    }
+
+    h3 {
+      font-family: $sans;
+      font-size: 2.8em;
+      font-weight: 700;
+      color: white;
+      margin: 60px 0 25px;
     }
 
     p {
